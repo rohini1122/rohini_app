@@ -10,7 +10,7 @@ ENV PYTHONPATH "${PYTHONPATH}:/code/app"
 
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "9090"]
 
-FROM python:3.9.0
+FROM python:3.9
 
 
 FROM python:3.9
